@@ -1,0 +1,27 @@
+Git Workflow Cheat-Sheet:
+
+Check in code
+  git add 
+    Adds a file to the staging area 
+    git status
+    git add -A
+    git ignore
+    git reset
+  git commit
+    commit the changes in the staging area to the local repository with a message
+  git push
+    this action publishes your local repository to the remote repository (GitHub)
+    git push <remote><branch>
+    Examples
+      git push origin main (don't do this)
+      git push orgin chat-dev
+
+Check Out Code
+  git clone
+    copy a repository to your local machine for the first time
+  git pull
+    download remote repository
+    update local repository to mach remote repository
+    Examples:
+    git pull origin main
+    git pull origin chat-dev
